@@ -13086,3 +13086,34 @@ footer .gradient-text {
   .terms-title { font-size: 22px; }
   .terms-list > li { padding-left: 32px; }
 }
+
+/* Mobile view */
+/* @media (max-width: 767px) {
+  .chat-bot-thumb .chat-item,
+  .chat-bot-thumb .illustration img:not([src*="illustration/2.png"]) {
+    display: none !important;
+  }
+
+  .chat-bot-thumb {
+    position: absolute;
+    top: 60px; 
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .chat-bot-thumb .illustration img[src*="illustration/2.png"] {
+    display: block !important;
+    width: 85%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .banner-style-three-info {
+    position: relative;
+    z-index: 2;
+  }
+} */
